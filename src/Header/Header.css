@@ -1,0 +1,85 @@
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+header {
+  width: 100%;
+  padding: 10px;
+  font-size: 130%;
+  position: absolute;
+  left: 0;
+  background-image: url(https://images.unsplash.com/photo-1442606383395-175ee96ed967?q=80&fm=jpg&s=5c8c74be9bc91b47c79a1aaf92264be5);
+}
+
+header h2 {
+  font-weight: 600;
+  padding-left: 5px;
+  display: inline;
+  font-size: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+  height: 50px;
+  cursor: none;
+}
+
+nav{
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  outline: none;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: -webkit-baseline-middle;
+  cursor: pointer;
+  opacity: .7;
+  padding-left: .5em;
+  color: black;
+  transition: opacity 5s ease-in-out;
+  font-size: 25px;
+}
+
+nav a:hover{
+  color: lightgoldenrodyellow
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: whitesmoke;
+  }
+
+  header img{
+    height: 40px;
+    cursor: none;
+  }
+
+  header h2 {
+    font-weight: 600;
+    padding-left: 5px;
+    display: inline;
+    font-size: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  nav a {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+    opacity: .7;
+    padding-left: .5em;
+    color: black;
+    transition: opacity 5s ease-in-out;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
