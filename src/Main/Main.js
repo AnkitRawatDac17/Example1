@@ -5,7 +5,7 @@ var uk = require("./uk.jpg");
 const Main = () =>(
     <div className="main container">
         <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-6">
                 <h3>
                     Hello! Wanna be in the Mountains ?
                 </h3>
@@ -14,6 +14,15 @@ const Main = () =>(
                     Try their routine.
                 </p>
             </div>
+            <div className="col-sm-6">
+                <h3>
+                    Take the road less travelled.
+                </h3>
+                <p>
+                    Be there among the hill people.
+                    Try their routine.
+                </p>
+            </div>            
         </div>
         <div className="row">
             <img className="imgStyle" src={uk}>
